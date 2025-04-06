@@ -32,7 +32,7 @@ const Contact = () => {
           </div>
           <p className="mt-3 text-sm">
             <strong>Phone</strong> <br />
-            +919717475889
+            +919111945163
           </p>
         </div>
 

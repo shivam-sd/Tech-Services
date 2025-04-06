@@ -26,7 +26,7 @@ const Header = () => {
           <p className="flex items-center gap-1">
             <FaPhoneAlt />{" "}
             <span className="font-sans text-[12px] lg:text-sm">
-              +919717475889
+              +91 9111945163
             </span>
           </p>
         </div>
