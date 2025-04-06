@@ -1,10 +1,11 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import ServicesData from "../components/ServicesData"; // Importing the Services Data
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
-    <div className="flex flex-col bg-gray-800 items-center gap-16 py-16 px-8 md:px-20">
+    <div className="flex flex-col bg-[#0c4a6e] items-center gap-16 py-16 px-8 md:px-20">
       {/* Title Section */}
       <div className="relative text-center">
         <h1 className="text-5xl md:text-5xl font-bold font-AfacadFlux text-white">My Services</h1>
@@ -23,14 +24,15 @@ const Services = () => {
             </h2>
             <p className="text-gray-300 text-base leading-7 max-w-sm font-AfacadFlux">{service.s_desc}</p>
             <div className="flex items-center gap-3 mt-4">
-              <a
-                href={service.s_link}
+              <Link
+                to={`/services/${service.s_no}`}
+                key={`${service.s_no}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white text-lg hover:underline"
               >
                 Read More...
-              </a>
+              </Link>
               <FaArrowRight className="text-xl" />
             </div>
           </div>

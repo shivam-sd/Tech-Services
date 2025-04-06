@@ -8,7 +8,7 @@ import Form from "./From";
 const Contact = () => {
 
   return (
-    <div className="w-full min-h-screen bg-gray-800 flex flex-col items-center">
+    <div className="w-full min-h-screen bg-[#1f2937] flex flex-col items-center">
         <h3 className="text-4xl text-white font-bold font-AfacadFlux">Contact us </h3>
       <p className="h-1 w-20 bg-white rounded mb-6 mt-2"></p>
       {/* <Header /> */}
@@ -20,8 +20,8 @@ const Contact = () => {
           </div>
           <p className="mt-3 text-sm">
             <strong>Address</strong> <br />
-            218, 10 Biz Park, Viman Nagar, Pune, Maharashtra, <br />
-            PIN-411014
+            Office 411, 4th floor, Ocean Complex, Sector 18, Noida, <br />
+             U.P. 201301
           </p>
         </div>
 
@@ -32,7 +32,7 @@ const Contact = () => {
           </div>
           <p className="mt-3 text-sm">
             <strong>Phone</strong> <br />
-            +91 9922011055
+            +919717475889
           </p>
         </div>
 
@@ -43,12 +43,13 @@ const Contact = () => {
           </div>
           <p className="mt-3 text-sm">
             <strong>Support</strong> <br />
-            support@virtualgaintechnologies.com
+            chaneepwebservicespvtltd@gmail.com
           </p>
         </div>
       </div>
  
  {/* form */}
+ <h1 className="text-white text-3xl font-bold font-AfacadFlux underline mt-8">Get in touch</h1>
  <Form />
 
     </div>

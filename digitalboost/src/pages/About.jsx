@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/logo.png"; // Import your logo image here
 const About = () => {
   return (
-    <div className="w-full min-h-screen bg-gray-800 flex flex-col items-center p-6 lg:p-12">
+    <div className="w-full min-h-screen bg-[#1e293b] flex flex-col items-center p-6 lg:p-12">
       
       {/* Title Section */}
       <div className="text-center mt-10">
@@ -35,17 +35,11 @@ const About = () => {
           </h3>
           <span className="h-1 w-14 bg-white rounded-md mt-2"></span>
           <p className="mt-4 text-lg leading-relaxed">
-            We are a team of young, talented, and skillful web developers and 
-            design engineers who meticulously create great websites and designs! 
-            We provide professional and customized solutions to our clients that 
-            help them market their products to a wider audience.
+          Chaneep Web Services Pvt Ltd is a dynamic IT solutions provider committed to delivering high-quality digital services tailored to modern business needs. We specialize in AWS solutions, web development, and mobile app development, helping businesses of all sizes build, scale, and optimize their digital presence. With a team of skilled professionals and a passion for innovation, we bring your ideas to life with robust, secure, and scalable technology.
+
           </p>
           <p className="mt-4 text-lg leading-relaxed">
-            We are experts in web designing, developing, branding, optimizing, 
-            and creating apps and software for a wide range of clients. Apart 
-            from web development, we deliver a complete suite of digital services. 
-            Our experienced team of developers is armed with the latest and advanced 
-            technologies to ensure top-notch solutions.
+          To be a leading technology partner that empowers businesses with innovative, reliable, and future-ready digital solutions—driving success through creativity, efficiency, and excellence.
           </p>
         </div>
       </div>
@@ -80,7 +74,7 @@ const About = () => {
           <img
             src={logo}
             loading="lazy"
-            className="w-72 h-72 lg:w-96 lg:h-96  object-contain rounded-lg shadow-md"
+            className="w-72 h-72 lg:w-96 lg:h-96  object-contain rounded shadow-md"
             alt="About Us"
           />
         </div>

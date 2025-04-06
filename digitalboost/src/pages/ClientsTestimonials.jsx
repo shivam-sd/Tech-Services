@@ -34,7 +34,7 @@ const ClientsTestimonials = () => {
   }, []);
 
   return (
-    <div className="bg-gray-600 text-white p-10 flex justify-between items-center flex-col lg:flex-row gap-5">
+    <div className="bg-[#0f172a] text-white p-10 flex justify-between items-center flex-col lg:flex-row gap-5">
       {/* Clients Section */}
       <div className="w-1/2 text-center">
         <h2 className="text-lg font-semibold border-b-2 inline-block border-blue-400 mb-4">

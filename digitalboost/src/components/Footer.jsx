@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#111827] text-gray-300 py-4 px-6">
+    <footer className="bg-[#0f172a] text-gray-300 py-4 px-6">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         
         {/* Left Section - Terms & Conditions */}
@@ -17,7 +17,7 @@ const Footer = () => {
 
         {/* Center Section - Copyright */}
         <div className="text-sm text-gray-400 text-center md:text-left mt-2 md:mt-0">
-          Copyright © {new Date().getFullYear()} Digital Boost Technologies - All Rights Reserved.
+          Copyright © {new Date().getFullYear()} Chaneep Web Services Pvt Ltd - All Rights Reserved.
         </div>
 
         {/* Right Section - Links */}

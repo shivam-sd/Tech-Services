@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "../components/Footer";
 
 const Form = () => {
 
@@ -33,7 +34,7 @@ const Form = () => {
       };
 
     return (
-        <div className=" w-full flex flex-col lg:flex-row items-center justify-center p-6 lg:p-12 gap-8">
+        <div className=" w-full flex flex-col lg:flex-row items-center justify-center p-6 lg:p-12 gap-8 bg-[#111827] h-screen">
             {/* Form Section */}
             <div className="w-full lg:w-96 shadow-lg rounded-lg bg-black p-3">
                 <form className="space-y-3" onSubmit={handleSubmitForm}>
@@ -96,7 +97,7 @@ const Form = () => {
                 <div className="w-full h-64 lg:h-full rounded-lg overflow-hidden shadow-lg">
                     <iframe
                         title="Google Map"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112178.51087171675!2d77.31925240641961!3d28.52232767076855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1743771703273!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.014180707614!2d77.32304861110863!3d28.569336886846198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4494158f029%3A0x68d98edfb6957970!2sOcean%20Complex%2C%20P%20Block%2C%20Pocket%20A%2C%20Sector%2018%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1743930999831!5m2!1sen!2sin"
                         width="100%"
                         height="100%"
                         style={{ border: 0 }}
