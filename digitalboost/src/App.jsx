@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Carrer from "./pages/Carrer";
 import ServicesDetails from "./pages/ServicesDetails";
 import Form from "./pages/From";
+import TermsAndConditions from "./pages/TermsAndConditions";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/carrer" element={<Carrer />} />
         <Route path="/form" element={<Form />} />
+        <Route path="/termsandcondition" element={<TermsAndConditions />} />
       </Routes>
     </div>
   );

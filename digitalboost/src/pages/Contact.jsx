@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaMicrophone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+
 // import Header from "../components/Header";
 import Form from "./From";
 
@@ -9,6 +10,7 @@ const Contact = () => {
 
   return (
     <div className="w-full min-h-screen bg-[#1f2937] flex flex-col items-center">
+     
         <h3 className="text-4xl text-white font-bold font-AfacadFlux">Contact us </h3>
       <p className="h-1 w-20 bg-white rounded mb-6 mt-2"></p>
       {/* <Header /> */}

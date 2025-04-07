@@ -54,7 +54,7 @@ const Header = () => {
           <Link to="/" className="flex items-center">
             <img src={logo} alt="Logo" className="w-14 h-14  rounded-full" />
           </Link>
-          <div className="lg:flex gap-16 font-AfacadFlux text-2xl hidden">
+          <div className="lg:flex gap-10 font-AfacadFlux text-2xl hidden">
             <Link to="/" className="hover:text-gray-200 duration-200">
               Home
             </Link>
@@ -69,6 +69,9 @@ const Header = () => {
             </Link>
             <Link to="/carrer" className="hover:text-gray-200 duration-200">
               Carrer
+            </Link>
+            <Link to="/termsandcondition" className="hover:text-gray-200 duration-200">
+              Terms & Conditions
             </Link>
           </div>
         </div>
@@ -109,6 +112,9 @@ const Header = () => {
           </Link>
           <Link to="/carrer" className="hover:text-gray-200 duration-200">
             Carrer
+          </Link>
+          <Link to="/termsandcondition" className="hover:text-gray-200 duration-200">
+            Terms & Conditions
           </Link>
         </div>
       </div>

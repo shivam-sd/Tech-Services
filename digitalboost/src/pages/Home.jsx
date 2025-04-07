@@ -6,10 +6,12 @@ import Services from "./Services";
 import Contact from "./Contact";
 import About from "./About";
 import Footer from "../components/Footer";
+import OpenChat from "./OpenChat";
 
 const Home = () => {
   return (
     <div>
+      <OpenChat />
       <Header />
       <ImageSlider />
       <ClientsTestimonials />

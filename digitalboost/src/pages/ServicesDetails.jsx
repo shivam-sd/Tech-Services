@@ -1,13 +1,15 @@
 import React from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link , useNavigate} from "react-router-dom";
 import ServicesData from "../components/ServicesData";
 
 
 const ServicesDetails = () => {
-  const { id } = useParams(); // Extracting the service ID from the URL parameters
+  const { id } = useParams(); 
 
-  const service = ServicesData.find((service) => service.s_no === id); // Finding the service details based on the ID
+  // const navigate = useNavigate();
+  
 
+  const service = ServicesData.find((service) => service.s_no === id); 
   if (!service) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center py-10 px-4">
@@ -75,6 +77,15 @@ const ServicesDetails = () => {
               Send Request
             </Link>
           </div>
+          <div className="btn w-full flex justify-center mt-4">
+            <Link
+            to={"/"}
+              // onClick={handleBackClick}
+              className="bg-gray-500 text-white font-bold p-2 rounded-md hover:bg-gray-600 transition duration-300"
+            >
+              Go Back
+            </Link>
+            </div>
         </div>
       </div>
     </div>
